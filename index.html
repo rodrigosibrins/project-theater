@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>EscenApp</title>
+</head>
+<body>
+    <section id="titleSection">
+        <h1>
+            EscenApp
+        </h1>
+        <p>
+            Elige la escena que quieres repasar, agrega el nombre del personaje
+            y su texto! Puedes elegir el tiempo de espera antes de que se
+            reproduzca el siguiente audio asi tendras tiempo a repasar tu parte!
+        </p>
+    </section>
+    <section id="dialogSection">
+        <div class="container">
+            <label for="characterInput">Personaje</label>
+            <input type="text" id="character">
+            <label for="dialogInput">Texto</label>
+            <input type="text" id="dialog">
+            <select id="waitingTime">
+                <option value="short">Espera corta</option>
+                <option value="medium">Espera mediana</option>
+                <option value="long">Espera larga</option>
+            </select>
+            <button id="addBtn">+</button>
+        </div>
+        
+        <div class="btnDiv">
+            <button type="button" id="play">Reproducir dialogo!</button>
+            <button id="reset">Reiniciar Escena</button>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>

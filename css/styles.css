@@ -1,0 +1,28 @@
+body{
+    background-color:beige;
+    font-family: sans-serif;
+}
+#titleSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: black;
+}
+p{
+    margin: 0% 20% 1% 20%;
+}
+#dialogSection{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.btnDiv{
+    margin-top: 20px;
+}
+#dialog{
+    width: 50%;
+}
